@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "require.js@2.3.6",
+      "destination": "wwwroot/lib/vue/require.js/"
+    },
+    {
+      "provider": "unpkg",
+      "library": "vue-resource@1.5.1",
+      "destination": "wwwroot/vue-resource/",
+      "files": [
+        "dist/vue-resource.js",
+        "dist/vue-resource.min.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "vue@2.6.12",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "dist/vue.js",
+        "dist/vue.min.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "element-ui@2.14.1",
+      "destination": "wwwroot/lib/element-ui/",
+      "files": [
+        "lib/index.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "vue-axios@3.2.2",
+      "destination": "wwwroot/lib/vue-axios/",
+      "files": [
+        "dist/vue-axios.min.js",
+        "dist/vue-axios.min.js.map",
+        "src/index.js"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "axios@0.21.1",
+      "destination": "wwwroot/lib/axios/",
+      "files": [
+        "dist/axios.js",
+        "dist/axios.map",
+        "dist/axios.min.js",
+        "dist/axios.min.map",
+        "lib/axios.js",
+        "lib/utils.js",
+        "lib/defaults.js"
+      ]
+    }
+  ]
+}
